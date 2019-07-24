@@ -11,6 +11,15 @@
         android:layout_height="wrap_content"
         android:onClick="btnTeachingView"
         android:text="Teaching" />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnMyTextView"
+        android:text="MyTextView" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnShineView"
+        android:text="ShinewView" />
 
 </LinearLayout>

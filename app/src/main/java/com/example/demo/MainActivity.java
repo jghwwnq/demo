@@ -23,5 +23,13 @@ public class MainActivity extends AppCompatActivity {
         mIntent.putExtra("flag",0);
         startActivity(mIntent);
     }
+    public void btnMyTextView(View view){
+        mIntent.putExtra("flag",1);
+        startActivity(mIntent);
+    }
+    public void btnShineView(View view){
+        mIntent.putExtra("flag",2);
+        startActivity(mIntent);
+    }
 
 }

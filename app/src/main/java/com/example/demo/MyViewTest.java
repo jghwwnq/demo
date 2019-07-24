@@ -12,6 +12,12 @@ public class MyViewTest extends Activity {
             case 0:
                 setContentView(R.layout.teaching);
                 break;
+            case 1:
+                setContentView(R.layout.my_textview);
+                break;
+            case 2:
+                setContentView(R.layout.shine_textview);
+                break;
             default:
                 break;
         }
